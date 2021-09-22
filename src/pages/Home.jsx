@@ -47,7 +47,7 @@ export const Home = () => {
           </h1>
           <h2>{h.title}</h2>
           <h3>{h.ingredients}</h3>
-          <img src={h.image} alt={h.title} />
+          <img width="250" src={h.image} alt={h.title} />
           <section>
             <button onClick={() => handleInfo()}>{h.info}</button>
             <button
